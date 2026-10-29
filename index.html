@@ -3,152 +3,166 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pickleball Dream Travel — Pickleball trips to Greece &amp; Europe</title>
-  <meta name="description" content="All-inclusive pickleball vacations in Greece and across Europe, planned by Dream Travel, in business since 1993. Small groups, 5-star stays, world-class courts.">
   <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <title>Pickleball Dream Travel — Pickleball trips to Greece &amp; Europe</title>
+  <meta name="description" content="Hosted pickleball trips to Greece and across Europe. Small groups, 5-star stays, reserved courts and real local culture, planned by Dream Travel since 1993.">
   <link rel="canonical" href="https://pickleball.dream-travel.net/">
   <meta property="og:title" content="Pickleball Dream Travel">
-  <meta property="og:description" content="Pickleball vacations in Greece and across Europe. Small groups, 5-star stays, real culture.">
+  <meta property="og:description" content="Hosted pickleball trips to Greece and across Europe.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="styles.css?v=pb-1">
+  <script src="site.js?v=pb-1" defer></script>
 </head>
-<body>
+<body class="home" data-discovery-layout="orbit" data-type-system="journal" data-flourishes="on">
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="#top" aria-label="Pickleball Dream Travel home">
-        <img src="images/logo-header-2x.webp" alt="" width="75" height="64">
-        <span>Dream Travel<small>Pickleball</small></span>
-      </a>
-      <nav class="nav" aria-label="Primary">
-        <a href="#trips">Trips</a>
-        <a href="#how">How it works</a>
-        <a href="#host">Host a trip</a>
-        <a class="button button--small" href="#contact">Ask about a trip</a>
-      </nav>
+  <header class="site-header" data-header>
+    <a class="brand" href="#main" aria-label="Pickleball Dream Travel home">
+      <img src="images/logo-header-2x.webp" alt="" width="75" height="64">
+      <span>Dream Travel Pickleball</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#method">Method</a>
+      <a href="#trips">Trips</a>
+      <a href="#hosting">Hosting</a>
+      <a href="#why">Why us</a>
+    </nav>
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+15712068949">571 206 8949</a>
+      <a class="button button--pink button--small" href="#plan">Plan a trip</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-open>
+        <span>Menu</span><i aria-hidden="true"></i>
+      </button>
     </div>
   </header>
 
+  <dialog class="mobile-menu" id="mobile-menu" aria-label="Site navigation">
+    <div class="mobile-menu__top">
+      <a class="brand brand--dark" href="#main" data-menu-link>
+        <img src="images/logo-header-2x.webp" alt="" width="75" height="64">
+        <span>Dream Travel Pickleball</span>
+      </a>
+      <button class="menu-close" type="button" aria-label="Close menu" data-menu-close>Close</button>
+    </div>
+    <nav class="mobile-menu__nav" aria-label="Mobile navigation">
+      <a href="#method" data-menu-link>Method</a>
+      <a href="#trips" data-menu-link>Trips</a>
+      <a href="#hosting" data-menu-link>Hosting</a>
+      <a href="#why" data-menu-link>Why us</a>
+      <a href="#plan" data-menu-link>Plan a trip</a>
+    </nav>
+    <div class="mobile-menu__contact">
+      <a href="mailto:go@dream-travel.net">go@dream-travel.net</a>
+      <a href="tel:+15712068949">571 206 8949</a>
+    </div>
+  </dialog>
+
   <main id="main">
-    <section class="hero" id="top">
-      <div class="wrap">
-        <p class="eyebrow">Pickleball vacations · Greece &amp; Europe</p>
-        <h1>Play the game you love <em>somewhere unforgettable.</em></h1>
-        <p class="lead">Small-group pickleball trips with 5-star stays, reserved courts and real local culture. Planned by Dream Travel, a family travel company in business since 1993.</p>
-        <div class="cta-row">
-          <a class="button" href="#trips">See 2027 trips</a>
-          <a class="button button--ghost" href="#host">Bring your own group</a>
+    <section class="hero" aria-labelledby="hero-title">
+      <picture class="hero__picture">
+        <img src="images/photos/greece-parthenon.webp" alt="The Parthenon on the Acropolis in Athens at golden hour." width="1800" height="1200" fetchpriority="high">
+      </picture>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__content">
+        <h1 id="hero-title"><span>Pickleball</span> <em>without borders<svg class="flourish flourish--hero-loop" viewBox="0 0 460 130" aria-hidden="true"><path pathLength="1" d="M25 76C56 111 355 126 427 78C468 50 413 13 259 11C109 9 12 31 25 76Z"></path><path pathLength="1" d="M39 84C111 120 352 117 420 68"></path></svg></em></h1>
+        <p>Hosted. Small groups. All inclusive.</p>
+        <div class="hero__buttons">
+          <a class="button button--outline" href="#trips">See 2027 trips</a>
+          <a class="button button--black" href="#plan">Plan a trip</a>
         </div>
-        <div class="hero-facts">
-          <div><b>1993</b><span>Dream Travel founded</span></div>
-          <div><b>18–24</b><span>players per group</span></div>
-          <div><b>All levels</b><span>beginner to advanced</span></div>
+      </div>
+      <a class="scroll-cue" href="#method">Scroll down</a>
+    </section>
+
+    <section class="intro section-pad" id="method" aria-labelledby="intro-title">
+      <div class="intro__inner">
+        <h2 id="intro-title">Play where you've always wanted to go</h2>
+        <svg class="flourish flourish--intro-swoop" viewBox="0 0 310 92" aria-hidden="true"><path pathLength="1" d="M12 59C67 82 201 84 288 44C300 38 296 27 284 30"></path><path pathLength="1" d="M269 23L288 30L276 49"></path></svg>
+        <p>Pickleball is the fastest-growing sport in America, and Europe is only beginning to discover it. These trips pair daily play and lessons for every level with the history, food and islands that made you want to go in the first place.</p>
+        <p>Groups stay small, usually eighteen to twenty-four guests. Hotels, courts, guides, ferries and transfers are arranged for you, and non-players are always welcome to come along.</p>
+        <p>On the ground, hosts who live and breathe the destination receive your group and run the days. You bring the paddle. We carry the trip.</p>
+        <a class="button button--black" href="#plan">Get in touch</a>
+      </div>
+    </section>
+
+    <section class="trip-showcase section-pad" id="trips" aria-labelledby="trips-title">
+      <div class="trip-showcase__intro"><h2 id="trips-title">2027 pickleball trips</h2><p>Our first destination is Greece, hosted by members of the Greek national team</p></div>
+      <div class="carousel-shell carousel-shell--trips" data-carousel data-autoplay="false">
+        <div class="trip-rail carousel-rail" tabindex="0" data-carousel-rail aria-label="Pickleball trips. Use the arrow buttons or drag to browse.">
+          <article class="trip-card" id="trip-greece-9"><img src="images/photos/greece-parthenon.webp" alt="The Parthenon in Athens" width="1800" height="1200" loading="lazy"><div class="trip-card__copy"><span>Greece · 9 days</span><h3>Athens, Crete &amp; Santorini</h3><p>$4,950 per person · Sep 27 – Oct 5, 2027</p><a class="button button--outline" href="#plan">Ask about this trip</a></div></article>
+          <article class="trip-card" id="trip-greece-7"><img src="images/photos/greece-2.webp" alt="Crete beach resort and sea" width="1800" height="1200" loading="lazy"><div class="trip-card__copy"><span>Greece · 7 days</span><h3>Crete All-Inclusive</h3><p>$2,950 per person · May 14–20 or Sep 19–25, 2027</p><a class="button button--outline" href="#plan">Ask about this trip</a></div></article>
+          <article class="trip-card" id="trip-greece-anniversary"><img src="images/photos/greece-3.webp" alt="Santorini caldera view" width="1800" height="1200" loading="lazy"><div class="trip-card__copy"><span>Greece · 9 days</span><h3>Anniversary Greece Trip</h3><p>$4,950 per person · May 22–30, 2027</p><a class="button button--outline" href="#plan">Ask about this trip</a></div></article>
+          <article class="trip-card"><img src="images/photos/france.webp" alt="France" width="1800" height="1200" loading="lazy"><div class="trip-card__copy"><span>Coming soon</span><h3>France</h3><p>Pickleball and culture, with our own team on the ground</p><a class="button button--outline" href="#plan">Be first to know</a></div></article>
+          <article class="trip-card"><img src="images/photos/portugal.webp" alt="Portugal coast" width="1800" height="1200" loading="lazy"><div class="trip-card__copy"><span>Coming soon</span><h3>Portugal</h3><p>Atlantic light, great food and great courts</p><a class="button button--outline" href="#plan">Be first to know</a></div></article>
+          <article class="trip-card"><img src="images/photos/spain.webp" alt="Spain" width="1800" height="1200" loading="lazy"><div class="trip-card__copy"><span>Coming soon</span><h3>Spain</h3><p>Andalusian towns and sunny courts</p><a class="button button--outline" href="#plan">Be first to know</a></div></article>
+          <article class="trip-card"><img src="images/photos/italy.webp" alt="Italy" width="1800" height="1200" loading="lazy"><div class="trip-card__copy"><span>Coming soon</span><h3>Italy</h3><p>A resort week with pickleball and la dolce vita</p><a class="button button--outline" href="#plan">Be first to know</a></div></article>
+        </div>
+        <div class="carousel-controls" aria-label="Trip carousel controls">
+          <button type="button" data-carousel-prev aria-label="Previous trip"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+          <button type="button" data-carousel-toggle aria-label="Pause trip carousel" aria-pressed="false"><i class="fa-solid fa-pause" aria-hidden="true"></i></button>
+          <button type="button" data-carousel-next aria-label="Next trip"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
         </div>
       </div>
     </section>
 
-    <section id="why">
-      <div class="wrap">
-        <p class="eyebrow">Why pickleball travel</p>
-        <h2>The sport is everywhere. The best trips are still rare.</h2>
-        <p class="intro">Pickleball is the fastest-growing sport in America, and Europe is only beginning to discover it. That means private courts, curious locals and a welcome that feels like a secret. We handle every detail so you can just show up and play.</p>
-        <div class="grid grid--3">
-          <div class="card"><h3>Courts and culture</h3><p>Daily play and lessons for every level, balanced with guided history, food and free time. Not everyone in your party has to play.</p></div>
-          <div class="card"><h3>Hosts who know the ground</h3><p>Trips led by pickleball players who live and breathe the destination, with a local team on call day and night.</p></div>
-          <div class="card"><h3>Small groups</h3><p>Eighteen to twenty-four guests, never a crowd. You'll know everyone by day two.</p></div>
-        </div>
+    <section class="host-options section-pad" id="hosting" aria-labelledby="hosting-title">
+      <div class="section-heading section-heading--center"><h2 id="hosting-title">Bring your players, host the trip</h2><p>Run a club, teach lessons, organize a league? Your members already want to travel with you.</p></div>
+      <svg class="flourish flourish--host-route" viewBox="0 0 1200 190" aria-hidden="true"><path pathLength="1" d="M72 119C230 34 351 153 517 84C670 20 806 47 1122 116"></path><circle cx="72" cy="119" r="8"></circle><circle cx="600" cy="62" r="8"></circle><circle cx="1122" cy="116" r="8"></circle></svg>
+      <div class="host-options__grid">
+        <article><span>01</span><h3>We build it</h3><p>Hotels, courts, excursions, transport and payments, planned and run by a company with thirty years of group travel.</p></article>
+        <article><span>02</span><h3>You host it</h3><p>Your group stays your group. You lead the trip and keep the relationship with your people.</p></article>
+        <article><span>03</span><h3>You earn</h3><p>Hosts earn for the guests they bring, and larger groups can travel on special terms.</p></article>
+      </div>
+      <p class="host-options__note">Full terms are set up front in your host agreement.</p>
+    </section>
+
+    <section class="story-sections" aria-label="How Dream Travel Pickleball works">
+      <article class="story-row">
+        <div class="story-row__copy"><h2>Courts and culture,<br>in balance</h2><p>Three hours of pickleball most days, with lessons, round robins and King of the Courts for every level. The rest of the day belongs to the place: ancient sites, island harbors, long dinners.</p><p>Players range from first-timers to tournament regulars. Not everyone in your party has to play.</p><a class="button button--black" href="#trips">See the trips</a></div>
+        <svg class="flourish flourish--story-arrow" viewBox="0 0 240 180" aria-hidden="true"><path pathLength="1" d="M16 128C66 156 126 132 143 91C158 55 135 27 105 42C75 58 95 103 142 104C175 105 199 87 218 60"></path><path pathLength="1" d="M197 63L219 60L213 81"></path></svg>
+        <div class="story-row__media"><img src="images/photos/greece-3.webp" alt="Santorini caldera at sunset" width="1800" height="1200" loading="lazy"></div>
+      </article>
+      <article class="story-row story-row--reverse">
+        <div class="story-row__copy"><h2>Hosted by people<br>who know the ground</h2><p>Our Greece trips are led by Niko and Christie Fronimos, members of the Greek national pickleball team. Niko speaks fluent Greek, and a Greek-speaking team is on call day and night.</p><p>More destinations are on the way, each with a local partner we already trust.</p><a class="button button--black" href="#plan">Meet your hosts</a></div>
+        <div class="story-row__media"><img src="images/photos/greece-4.webp" alt="Greek island harbor" width="1800" height="1200" loading="lazy"></div>
+      </article>
+      <article class="story-row">
+        <div class="story-row__copy"><h2>Looked after<br>from first call to last dinner</h2><p>A point of contact stays reachable from before your first flight through the final goodbye, so you can focus on the game.</p><p>Dream Travel has planned group journeys since 1993, and we keep every group small enough to know your name.</p><a class="button button--black" href="#plan">Begin a journey</a></div>
+        <div class="story-row__media"><img src="images/photos/greece-2.webp" alt="Crete beach and sea" width="1800" height="1200" loading="lazy"></div>
+      </article>
+    </section>
+
+    <section class="why section-pad" id="why" aria-labelledby="why-title">
+      <div class="section-heading section-heading--center"><h2 id="why-title">Why Dream Travel Pickleball?</h2></div>
+      <div class="why__grid">
+        <article><i class="fa-solid fa-table-tennis-paddle-ball" aria-hidden="true"></i><h3>Play every day</h3><p>Reserved courts, lessons and tournaments.</p></article>
+        <article><i class="fa-solid fa-users" aria-hidden="true"></i><h3>Small groups</h3><p>Eighteen to twenty-four guests, never a crowd.</p></article>
+        <article><i class="fa-solid fa-route" aria-hidden="true"></i><h3>Logistics carried</h3><p>Hotels, guides, ferries and transfers.</p></article>
+        <article><i class="fa-solid fa-handshake" aria-hidden="true"></i><h3>Trusted locally</h3><p>Hosts and partners we know receive your group.</p></article>
+        <article><i class="fa-solid fa-headset" aria-hidden="true"></i><h3>Human contact</h3><p>Reachable before the flight through the last dinner.</p></article>
       </div>
     </section>
 
-    <section class="alt" id="trips">
-      <div class="wrap">
-        <p class="eyebrow">2027 trips</p>
-        <h2>Greece, hosted by Team Greece players.</h2>
-        <p class="intro">Our first destination is hosted by Niko and Christie Fronimos, members of the Greek national pickleball team who have run sold-out Greece trips for five years.</p>
-        <div class="grid grid--2">
-          <article class="card trip">
-            <span class="tag">Signature · 9 days</span>
-            <h3>Athens, Crete &amp; Santorini</h3>
-            <p class="price">$4,950 <small>per person, double occupancy</small></p>
-            <p>Three iconic stops with pickleball on reserved courts in each.</p>
-            <ul>
-              <li>Acropolis, Palace of Knossos, Akrotiri and Oia with private guides</li>
-              <li>5-star all-inclusive beach resort in Crete</li>
-              <li>Sunset catamaran cruise with a Greek BBQ</li>
-              <li>Daily lessons, round robins and King of the Courts</li>
-              <li>All excursions, ferry, internal transfers and gear included</li>
-            </ul>
-            <p class="dates">Sep 27 – Oct 5, 2027 · May 22–30, 2027 (anniversary trip)</p>
-          </article>
-          <article class="card trip">
-            <span class="tag">Stay-put · 7 days</span>
-            <h3>Crete all-inclusive</h3>
-            <p class="price">$2,950 <small>per person, double occupancy</small></p>
-            <p>One resort, six days of pickleball, zero logistics.</p>
-            <ul>
-              <li>5-star beachfront resort with four new pickleball courts</li>
-              <li>All food and drinks included</li>
-              <li>Palace of Knossos tour and Heraklion city day</li>
-              <li>Airport transfers, lessons, tournaments and equipment</li>
-              <li>Great for families and multi-generation groups</li>
-            </ul>
-            <p class="dates">May 14–20, 2027 · Sep 19–25, 2027</p>
-          </article>
-        </div>
-        <p class="intro" style="margin-top:34px">Coming next, with local partners we already work with:</p>
-        <div class="soon"><span>France</span><span>Portugal</span><span>Spain</span><span>Italy</span><span>Croatia</span></div>
-      </div>
-    </section>
-
-    <section id="how">
-      <div class="wrap">
-        <p class="eyebrow">How it works</p>
-        <h2>You play. We handle everything else.</h2>
-        <ol class="steps">
-          <li><h3>Pick a trip</h3><p>Choose a destination and dates, or tell us where you'd like to go next.</p></li>
-          <li><h3>Reserve your spot</h3><p>A simple deposit holds your place. We'll walk you through payments and paperwork.</p></li>
-          <li><h3>Get ready</h3><p>We help with flights, insurance and questions, and your hosts meet you before you leave.</p></li>
-          <li><h3>Show up and play</h3><p>Courts, hotels, tours and meals are all arranged. A local team is there day and night.</p></li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="host" id="host">
-      <div class="wrap">
-        <p class="eyebrow">For clubs, coaches &amp; organizers</p>
-        <h2>Bring your players. We'll build the trip.</h2>
-        <p class="intro">Do you run a club, teach lessons, organize a league or lead a team? Your members already want to travel with you. We design the trip, handle every booking and run it on the ground. You host and earn.</p>
-        <div class="grid grid--3">
-          <div class="card"><h3>We do the work</h3><p>Hotels, courts, excursions, transport, payments and 24/7 support. All handled by a company with 30+ years of group travel.</p></div>
-          <div class="card"><h3>You keep your people</h3><p>Your group is your group. You lead the trip and the relationship stays with you.</p></div>
-          <div class="card"><h3>Earn for hosting</h3><p>Hosts are rewarded for the guests they bring, and larger groups can travel on special terms.</p></div>
-        </div>
-        <p style="margin-top:34px"><a class="button" href="mailto:go@dream-travel.net?subject=Hosting%20a%20pickleball%20trip">Talk to us about hosting</a></p>
-      </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="wrap">
-        <p class="eyebrow">Questions?</p>
-        <h2>Let's plan your pickleball trip.</h2>
-        <p class="intro">Tell us where you'd like to play and who's coming. A real person from Dream Travel will reply.</p>
-        <div class="contact-links">
-          <a class="button" href="mailto:go@dream-travel.net?subject=Pickleball%20trip%20question">go@dream-travel.net</a>
-          <a class="button" href="tel:+15712068949">571 206 8949</a>
-        </div>
-      </div>
+    <section class="final-cta" id="plan" aria-labelledby="plan-title">
+      <svg class="flourish flourish--final-burst" viewBox="0 0 190 190" aria-hidden="true"><circle cx="95" cy="95" r="29"></circle><path pathLength="1" d="M95 8V47"></path><path pathLength="1" d="M95 143V182"></path><path pathLength="1" d="M8 95H47"></path><path pathLength="1" d="M143 95H182"></path><path pathLength="1" d="M34 34L61 61"></path><path pathLength="1" d="M129 129L156 156"></path><path pathLength="1" d="M156 34L129 61"></path><path pathLength="1" d="M61 129L34 156"></path></svg>
+      <div><h2 id="plan-title">Tell us where you'd like to play.</h2><p>Share the trip you're considering and who's coming, and a real person from Dream Travel will reply. You don't need every detail yet.</p><div class="final-cta__actions"><a class="button button--black" href="mailto:go@dream-travel.net?subject=Pickleball%20trip%20question">Email us</a></div><p class="final-cta__skip">Prefer to talk? Call <a href="tel:+15712068949">571 206 8949</a>.</p></div>
     </section>
   </main>
 
-  <footer>
-    <div class="wrap">
-      <img src="images/logo-footer-2x.webp" alt="Dream Travel" width="75" height="64">
-      <p>Pickleball Dream Travel is a specialty of <a href="https://adults.dream-travel.net">Dream Travel</a>, planning group journeys since 1993.<br>Prices are per person and subject to change. Greece trips operated with Ultimate Pickleball Greece Vacation.</p>
+  <footer class="site-footer">
+    <div class="footer-contact"><h2>Start with a conversation</h2><a href="mailto:go@dream-travel.net">go@dream-travel.net</a><a href="tel:+15712068949">571 206 8949</a></div>
+    <div class="footer-main">
+      <div class="footer-brand"><a class="brand" href="#main"><img src="images/logo-footer-2x.webp" alt="" width="112" height="96"><span>Dream Travel Pickleball</span></a><p>Hosted. Small groups. All inclusive.</p><div class="footer-social"><a href="https://www.facebook.com/dreamtravelinternationalcorp" target="_blank" rel="noopener" aria-label="Dream Travel on Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a><a href="https://www.instagram.com/dreamtravel_adventures/" target="_blank" rel="noopener" aria-label="Dream Travel on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></div></div>
+      <nav aria-label="Footer method links"><h3>How it works</h3><a href="#method">Play and explore</a><a href="#trips">Pick a trip</a><a href="#hosting">Host your players</a><a href="#plan">Plan a trip</a></nav>
+      <nav aria-label="Footer trip links"><h3>Trips</h3><a href="#trip-greece-9">Athens, Crete &amp; Santorini</a><a href="#trip-greece-7">Crete All-Inclusive</a><a href="#trip-greece-anniversary">Anniversary Greece</a></nav>
+      <nav aria-label="Footer more links"><h3>Dream Travel</h3><a href="https://adults.dream-travel.net">Adult group travel</a><a href="#hosting">Hosting</a><a href="#why">Why us</a></nav>
     </div>
+    <div class="footer-bottom"><span>© 2026 Dream Travel</span><span>Greece trips operated with Ultimate Pickleball Greece Vacation. Prices per person, double occupancy.</span></div>
   </footer>
 </body>
 </html>
